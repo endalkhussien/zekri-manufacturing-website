@@ -1,7 +1,7 @@
 import React from 'react';
 import WhyChooseUs from './components/whyChooseUs';
 import Navigation from './components/navigation';
-import Link from 'next/link';
+// import Link from 'next/link';
 import HeroSection from './components/heroSection';
 
 export default function HomePage() {
