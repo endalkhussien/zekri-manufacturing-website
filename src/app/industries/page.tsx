@@ -90,7 +90,7 @@ const Industries = () => {
           </p>
           <a
             href="/contact"
-            className="bg-blue-600 text-white px-8 py-4 rounded-md text-lg hover:bg-blue-700 transition duration-200"
+            className="bg-teal text-white px-8 py-4 rounded-md text-lg hover:bg-black transition duration-200"
           >
             Get in Touch
           </a>

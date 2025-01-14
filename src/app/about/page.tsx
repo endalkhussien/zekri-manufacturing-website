@@ -81,14 +81,14 @@ const AboutPage = () => {
         </div>
 
         {/* Call to Action Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12 px-6 rounded-lg shadow-lg">
+        <div className="bg-teal to-blue-800 text-white py-12 px-6 rounded-lg shadow-lg">
           <h2 className="text-4xl font-bold mb-6">Join Us in Shaping the Future</h2>
           <p className="text-lg max-w-2xl mx-auto mb-8">
             Whether you’re a partner, client, or visionary, we welcome you to explore our world of innovation. Together, we can achieve extraordinary things.
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-white text-blue-800 px-8 py-4 rounded-lg text-lg font-semibold shadow-md hover:bg-gray-100 transition duration-300"
+            className="inline-block bg-black text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-md hover:bg-white-100 transition duration-300"
           >
             Contact Us
           </Link>

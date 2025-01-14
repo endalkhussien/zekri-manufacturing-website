@@ -29,7 +29,7 @@ const HeroSection = () => {
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <a
             href="/industries"
-            className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-lg font-semibold rounded-lg transition duration-200"
+            className="px-8 py-4 bg-teal hover:bg-black text-lg font-semibold rounded-lg transition duration-200"
           >
             Explore Industries
           </a>

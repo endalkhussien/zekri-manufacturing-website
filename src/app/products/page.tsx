@@ -82,7 +82,7 @@ const Products = () => {
                 </div>
 
                 {/* Learn More Button */}
-                <Link href={product.link} className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-700 transition duration-200 ease-in-out">
+                <Link href={product.link} className="bg-teal text-white px-6 py-3 rounded-md text-lg hover:bg-black transition duration-200 ease-in-out">
                   Learn More
                 </Link>
               </div>
@@ -96,7 +96,7 @@ const Products = () => {
           <p className="text-lg text-gray-600 mb-8">
             From steel manufacturing to logistics, Zekri Manufacturing is committed to delivering excellence at every stage of production. Explore our wide array of solutions to meet your industrial needs.
           </p>
-          <Link href="/products" className="bg-black text-white px-6 py-3 rounded-md text-lg hover:bg-blue-600 transition-shadow shadow-lg">
+          <Link href="/products" className="bg-black text-white px-6 py-3 rounded-md text-lg hover:bg-teal transition-shadow shadow-lg">
             View All Products
           </Link>
         </section>
