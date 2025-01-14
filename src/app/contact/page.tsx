@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 const ContactUs = () => {
   return (
     <div className="bg-gray-300 py-16 px-6">
