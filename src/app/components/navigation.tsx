@@ -4,14 +4,14 @@ import React from "react";
 const Navigation = () => (
   <div>
     {/* Navigation Section */}
-    <nav className="fixed top-0 left-0 w-full bg-blue-500 text-white shadow-lg z-50 py-6 px-8">
+    <nav className="fixed top-0 left-0 w-full bg-white text-black shadow-lg z-50 py-6 px-8">
       <div className="flex justify-between items-center">
         <div className="text-2xl font-bold tracking-wide">Zekri-Manufacturing</div>
         <ul className="flex space-x-6 text-xl">
           
             <Link
               href="/"
-              className="text-white border-b-4 border-transparent hover:border-white p-2 hover:text-black transition-all duration-300"
+              className="text-black border-b-4 border-transparent hover:border-blue-600 p-2 hover:text-black transition-all duration-300"
             >
               Home
             </Link>
@@ -19,7 +19,7 @@ const Navigation = () => (
           
             <Link
               href="/about"
-              className="text-white border-b-4 border-transparent hover:border-white p-2 hover:text-black transition-all duration-300"
+              className="text-black border-b-4 border-transparent hover:border-blue-600 p-2 hover:text-black transition-all duration-300"
             >
               About
             </Link>
@@ -27,7 +27,7 @@ const Navigation = () => (
           
             <Link
               href="/products"
-              className="text-white border-b-4 border-transparent hover:border-white p-2 hover:text-black transition-all duration-300"
+              className="text-black border-b-4 border-transparent hover:border-blue-600 p-2 hover:text-black transition-all duration-300"
             >
               Products
             </Link>
@@ -35,7 +35,7 @@ const Navigation = () => (
           
             <Link
               href="/industries"
-              className="text-white border-b-4 border-transparent hover:border-white p-2 hover:text-black transition-all duration-300"
+              className="text-black border-b-4 border-transparent hover:border-blue-600 p-2 hover:text-black transition-all duration-300"
             >
               Industries
             </Link>
@@ -43,14 +43,14 @@ const Navigation = () => (
           
             <Link
               href="/careers"
-              className="text-white border-b-4 border-transparent hover:border-white p-2 hover:text-black transition-all duration-300"
+              className="text-black border-b-4 border-transparent hover:border-blue-600 p-2 hover:text-black transition-all duration-300"
             >
               Careers
             </Link>
           
             <Link
               href="/contact"
-              className="text-white border-b-4 border-transparent hover:border-white p-2 hover:text-black transition-all duration-300"
+              className="text-black border-b-4 border-transparent hover:border-blue-600 p-2 hover:text-black transition-all duration-300"
             >
               Contact Us
             </Link>
