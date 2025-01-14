@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold tracking-wide">Zekri-Manufacturing</div>
           {/* Menu */}
-          <ul className={`sm:flex space-x-6 text-xl ${isMenuOpen ? "block" : "hidden"} sm:block`}>
+          <ul className={`sm:flex space-x-5 ml-16 text-xl  ${isMenuOpen ? "block" : "hidden"} sm:block`}>
             <li>
               <Link
                 href="/"
@@ -52,14 +52,14 @@ const Navigation = () => {
                 Industries
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/careers"
                 className="text-white border-b-4 border-transparent hover:border-black px-2 py-1 hover:text-white transition-all duration-300"
               >
                 Careers
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/contact"
