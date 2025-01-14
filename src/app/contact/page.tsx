@@ -1,5 +1,6 @@
 import React from "react";
 // import Link from "next/link";
+
 const ContactUs = () => {
   return (
     <div className="bg-gray-300 py-16 px-6">
@@ -8,7 +9,7 @@ const ContactUs = () => {
         <div className="text-center mb-12 mt-32">
           <h1 className="text-4xl font-bold text-gray-800">Contact Us</h1>
           <p className="text-lg text-gray-600 mt-4">
-            Have questions or need assistance? Reach out to us, and we'll be happy to help!
+            Have questions or need assistance? Reach out to us, and we&apos;ll be happy to help!
           </p>
         </div>
 

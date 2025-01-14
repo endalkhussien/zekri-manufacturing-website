@@ -6,7 +6,7 @@ const WhyChooseUs = () => (
       {/* Section Header */}
       <h2 className="text-4xl font-bold text-gray-800 mb-6">Why Choose Us</h2>
       <p className="text-lg text-gray-600 mb-12">
-        At Zekri Manufacturing, we are committed to excellence and innovation. Here's what sets us apart.
+        At Zekri Manufacturing, we are committed to excellence and innovation. Here&apos;s what sets us apart.
       </p>
 
       {/* Features Grid */}
